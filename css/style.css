@@ -1,0 +1,73 @@
+
+/* style for the Tematres data */
+
+
+div {
+padding-bottom: 10px;
+}
+
+/* style for the notes */
+.t3_notes:hover{
+opacity: 1;
+}
+
+.t3_note_label {
+margin: 0px;
+}
+
+.t3_body_note {
+margin: 10px 0px 0px 10px; 
+}
+
+.t3_notes {
+border-radius: 5px;
+padding: 6px 0px 0px 10px; 
+background-color: rgba(185, 178, 178, 0.71);
+opacity: 0.9;
+}
+
+
+/* style for the itemlist */
+.t3_term_list {
+clear: both;
+float: none;
+}
+
+.t3_term_list li {
+list-style: none;
+background: none;
+padding: 0;
+margin: 0 0 5px 0;
+}
+
+.t3_term_link a:link {
+text-decoration: none;
+}
+
+.t3_term_link a:hover {
+text-decoration: underline;
+}
+
+#narrower_terms li, #alt_terms li, #broader_terms li, #related_terms li{
+   list-style-type: none;
+   display: inline;
+   /*padding-right: 2px;*/
+}
+
+#narrower_terms li:before,#narrower_terms li:before, #alt_terms li:before, #broader_terms li:before, #related_terms li:before{
+   content: ";  ";
+}
+
+
+#narrower_terms li:first-child:before,#narrower_terms li:first-child:before, #alt_terms li:first-child:before, #broader_terms li:first-child:before, #related_terms li:first-child:before{
+	content: " ";
+}
+
+
+.t3_search_resources {
+padding-bottom: 20px;
+padding-left: 20px;
+clear: both;
+float: none;
+font-size: 90%;
+}
